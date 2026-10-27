@@ -1,10 +1,8 @@
 """
-Cathy's group: tokenized Money Market Funds, ETFs, Private Credit
+tokenized Money Market Funds, ETFs, Private Credit
 Daily price + volume (5y) from yfinance for tokens and underlying/proxy assets,
 then token-vs-underlying comparison.
 
-Run locally (needs internet):  pip install yfinance pandas openpyxl && python cathy_token_analysis.py
-Output: cathy_token_analysis.xlsx  (one sheet per series, a Coverage sheet, a Comparison sheet)
 
 IMPORTANT: Yahoo only lists a subset of tokens. Every ticker below is a CANDIDATE.
 The Coverage sheet records which ones actually returned data; anything that fails
